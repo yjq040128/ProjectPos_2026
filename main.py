@@ -1,10 +1,9 @@
-
+# Sprint 1 completed - 2026
 class ProductDescription:
     def __init__(self, item_id, description, price):
         self.item_id = item_id
         self.description = description
         self.price = price
-
 
 class SalesLineItem:
     def __init__(self, product, quantity):
@@ -13,7 +12,6 @@ class SalesLineItem:
 
     def get_subtotal(self):
         return self.product.price * self.quantity
-
 
 
 class Sale:
